@@ -11,10 +11,8 @@ class App extends React.Component {
     }
   }
   render() {
-    // console.log(this.state.pokemons);
-    // Pasamos los datos del archivo json a través del estado del componente
+    // Pasamos los datos del archivo json a través del estado del componente y luego por props a su componente hijo
     const pokemonData = this.state.pokemons;
-    // console.log(pokemonData);
     return (
       <div className="App">
         <header className="app-header">
