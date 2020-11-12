@@ -4,9 +4,17 @@ import pokemons from "../data/pokemons.json";
 import PokeList from "./PokeList";
 
 class App extends React.Component {
-
+  constructor(props) {
+    super(props);
+    this.state = {
+      pokemons: pokemons
+    }
+  }
   render() {
-    // console.log(pokemons);
+    // console.log(this.state.pokemons);
+    // Pasamos los datos del archivo json a través del estado del componente
+    const pokemonData = this.state.pokemons;
+    // console.log(pokemonData);
     return (
       <div className="App">
         <header>
@@ -14,7 +22,7 @@ class App extends React.Component {
         </header>
         <main>
           <section>
-            <PokeList pokemons={pokemons}/>
+            <PokeList pokemons={pokemonData}/>
           </section>
         </main>
       </div>
