@@ -17,11 +17,11 @@ class App extends React.Component {
     // console.log(pokemonData);
     return (
       <div className="App">
-        <header>
-          <h1>Mi lista de Pokemon</h1>
+        <header className="app-header">
+          <h1 className="app-header__title">Mi lista de Pokemon</h1>
         </header>
         <main>
-          <section>
+          <section className="main-section">
             <PokeList pokemons={pokemonData}/>
           </section>
         </main>

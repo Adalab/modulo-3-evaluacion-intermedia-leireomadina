@@ -1,4 +1,6 @@
 import React from "react";
+import "../stylesheets/_pokemon.scss";
+
 
 const Pokemon = (props) => {
   const pokemonType = props.pokemon.types.map((type, i) => {

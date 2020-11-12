@@ -1,0 +1,18 @@
+// Header styles
+
+.app-header {
+  background-color:lightblue;
+  padding: 20px 0;
+
+  &__title {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+// Section styles
+
+.main-section {
+  padding: 20px 0;
+  background-color: lightgreen;
+}

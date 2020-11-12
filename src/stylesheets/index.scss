@@ -1,0 +1,22 @@
+//reset styles
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+//general page styles
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+}
