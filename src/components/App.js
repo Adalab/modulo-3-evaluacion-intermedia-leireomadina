@@ -1,13 +1,13 @@
 import "../stylesheets/App.scss";
 import React from 'react';
-import pokemons from "../data/pokemons.json";
+import data from "../data/data.json";
 import PokeList from "./PokeList";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      pokemons: pokemons
+      pokemons: data
     }
   }
   render() {
