@@ -1,5 +1,6 @@
 {
-  "name": "template",
+  "name": "pokedex",
+  "author": "Leire-Ordeñana",
   "version": "0.1.0",
   "homepage": "./",
   "private": true,
