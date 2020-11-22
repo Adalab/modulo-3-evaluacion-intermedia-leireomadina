@@ -1,8 +1,8 @@
-#Ejercicio de evaluación intermedia con React - Módulo 3 Adalab
+# Ejercicio de evaluación intermedia con React - Módulo 3 Adalab
 
-## Gotta Catch 'Em All!
+## Gotta catch 'em all!
 
-![Gotta Catch 'Em All](./src/images/pokeball.gif)
+![Gif of a shining pokeball](./src/images/pokeball.gif)
 
 
 Este ejercicio forma parte de la evaluación intermedia del módulo 3 de Adalab. Consiste en desarrollar una página web sencilla con el framework **React**.
@@ -32,7 +32,7 @@ Para realizar el ejercicio y trabajar de manera más cómoda y productiva se han
 
 ## Resultado final
 
-![web final result showing ten pokemons](./src/images/pokedex.png)
+![Image of the web final result showing ten pokemons](./src/images/pokedex.png)
 
 ## Nuevas funcionalidades
 

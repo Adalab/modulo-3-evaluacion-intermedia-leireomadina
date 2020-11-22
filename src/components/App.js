@@ -2,6 +2,7 @@ import "../stylesheets/App.scss";
 import React from 'react';
 import data from "../data/data.json";
 import PokeList from "./PokeList";
+import PropTypes from 'prop-types';
 
 class App extends React.Component {
   constructor(props) {
@@ -11,7 +12,6 @@ class App extends React.Component {
     }
   }
   render() {
-    // Pasamos los datos del archivo json a través del estado del componente y luego por props a su componente hijo
     const pokemonData = this.state.pokemons;
     return (
       <div className="App">
@@ -27,5 +27,10 @@ class App extends React.Component {
     );
   }
 }
+
+App.propTypes = {
+  pokemonData: PropTypes.object
+}
+
 
 export default App;
